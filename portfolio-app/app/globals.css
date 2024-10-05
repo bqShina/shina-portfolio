@@ -1,9 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap');
 
 :root {
-  --background: #ffffff;
+  --background: radial-gradient(53% 80.08000000000001% at 50% 69.5%, var(rgb(252, 235, 239), #fcebef) 0%, rgba(252, 252, 255, 0) 100%);
   --foreground: #171717;
 }
 
@@ -25,3 +26,10 @@ body {
     text-wrap: balance;
   }
 }
+
+/* .wix-madefor-display-<uniquifier> {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
