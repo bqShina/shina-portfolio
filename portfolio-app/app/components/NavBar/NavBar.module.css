@@ -1,16 +1,12 @@
 .navbar {
-    padding: 0 10%;
+    padding: 0 14%;
     font-size: 16px;
     background-color: rgba(255, 255, 255, 0.6);
     position: fixed;
     top: 0;
 }
-.logo {
-    font-weight: 800;
-    font-family: "Wix Madefor Text", sans-serif;
-}
 
-.navLinks {
+.nav_links {
     align-items: center;
     font-size: 16px;
 }

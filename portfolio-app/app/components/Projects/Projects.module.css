@@ -1,0 +1,9 @@
+.project {
+    border-radius: 40px;
+    width: 75%;
+    margin: auto;
+    padding: 20%;
+    box-shadow: 0 .6021873017743928px 1.8065619053231785px -1.25px #0000002e,
+        0 2.288533303243457px 6.8655999097303715px -2.5px #00000029,
+        0 10px 30px -3.75px #00000010;
+}
