@@ -14,16 +14,10 @@ const Heading = () => {
           I build websites and apps that blows your mind
         </h1>
         <div className="flex justify-center">
-          <Link
-            className="mr-4 text-white bg-gray-800 px-7 py-3 rounded-full transition duration-200 hover:scale-95"
-            href="#projects"
-          >
+          <Link className="mr-4 btn-primary" href="#projects">
             My work
           </Link>
-          <Link
-            className="border-2 border-gray-800 px-7 py-3 rounded-full transition duration-200 hover:scale-95"
-            href={"#"}
-          >
+          <Link className="btn-secondary" href={"#"}>
             About me
           </Link>
         </div>

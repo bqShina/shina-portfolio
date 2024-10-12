@@ -27,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${lato.className} scroll-smooth!`}>
+      <body className={`${lato.className} scroll-smooth`}>
         <NarBar />
         <main>{children}</main>
         <Footer />
