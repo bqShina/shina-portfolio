@@ -1,9 +1,0 @@
-.heading_frame {
-    padding: 4% 7% 30%;
-    background: 
-    linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(252, 252, 255) 52%),radial-gradient(53% 80.08% at 50% 69.5%, rgba(253, 225, 241, 0.9), rgba(252, 235, 251, 0.8));
-        
-    width: 80%;
-    margin: auto;
-    border-radius: 100px;
-}

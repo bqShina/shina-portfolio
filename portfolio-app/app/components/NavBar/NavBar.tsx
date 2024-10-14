@@ -5,7 +5,7 @@ import { wix } from "@/app/layout";
 
 const NarBar = () => {
   return (
-    <div className={`navbar py-8 bg-base-100 ${styles.navbar}`}>
+    <nav className={`navbar py-8 bg-base-100 ${styles.navbar}`}>
       <div className="flex-1">
         <Link href="#" className={wix.className}>
           SHINA QIN
@@ -25,6 +25,9 @@ const NarBar = () => {
           <li>
             <Link href="#">Skills</Link>
           </li>
+          <li>
+            <Link href="#">About</Link>
+          </li>
 
           <li>
             <Link
@@ -36,7 +39,7 @@ const NarBar = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 };
 

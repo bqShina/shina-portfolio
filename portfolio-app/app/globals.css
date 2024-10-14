@@ -9,12 +9,12 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 * {
   scroll-behavior: smooth;
@@ -36,17 +36,14 @@ h1 {
 }
 
 .sub-heading {
-  background: linear-gradient(125deg, rgba(255, 255, 255, .6) 0%, var(--token-7271da1b-9f0a-41bd-91b9-d7098d8944de, rgb(244, 237, 255)) 100%);
+  background: linear-gradient(125deg, rgba(255, 255, 255, .6) 0%, rgb(244, 237, 255) 100%);
   border-radius: 32px;
   border: 1px solid white;
-  width: 11rem;
-  margin: auto;
+  width: 14rem;
+  margin: 0 auto;
   padding: 6px 20px;
 }
 
-.sub-heading {
-
-}
 
 @layer utilities {
   .text-balance {

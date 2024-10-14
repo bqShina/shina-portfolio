@@ -1,5 +1,5 @@
 import AboutMe from "./components/About";
-import Heading from "./components/Heading/Heading";
+import Heading from "./components/Heading";
 import Posts from "./components/Posts";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills";
@@ -10,9 +10,9 @@ export default function Home() {
     <main>
       <Heading />
       <Projects />
-      <Tools />
+      {/* <Tools /> */}
       <Skills />
-      <Posts />
+      {/* <Posts /> */}
       <AboutMe />
     </main>
   );
