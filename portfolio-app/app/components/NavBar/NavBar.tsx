@@ -17,16 +17,13 @@ const NarBar = () => {
             <Link href="#projects">Work</Link>
           </li>
           {/* <li>
-            <Link href="#">Tools</Link>
+            <Link href="#">Experience</Link>
           </li> */}
           <li>
-            <Link href="#">Experience</Link>
+            <Link href="#skills">Skills</Link>
           </li>
           <li>
-            <Link href="#">Skills</Link>
-          </li>
-          <li>
-            <Link href="#">About</Link>
+            <Link href="#about">About</Link>
           </li>
 
           <li>

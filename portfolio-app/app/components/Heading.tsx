@@ -4,7 +4,7 @@ import React from "react";
 const Heading = () => {
   return (
     <div className="pt-32">
-      <div className="px-[7%] pt-[4%] pb-[30%] bg-[linear-gradient(180deg,rgba(255,255,255,0)_0%,rgb(252,252,255)_52%),radial-gradient(53%_80.08%_at_50%_69.5%,rgba(253,225,241,0.9),rgba(252,235,251,0.8))] backdrop-blur-[7px] w-[80%] mx-auto rounded-[100px]">
+      <div className="px-[7%] pt-[4%] pb-[30%] bg-[linear-gradient(180deg,rgba(255,255,255,0)_0%,rgb(252,252,255)_52%),radial-gradient(53%_80.08%_at_50%_69.5%,rgba(253,225,241,0.9),rgba(252,235,251,0.8))] w-[80%] mx-auto rounded-[100px]">
         <div className="sub-heading">
           <h6 className="text-center">Hi I&apos;m Shina 💻</h6>
         </div>
