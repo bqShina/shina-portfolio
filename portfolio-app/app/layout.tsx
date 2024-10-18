@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Wix_Madefor_Display, Lato } from "next/font/google";
+import { Lato } from "next/font/google";
 import NarBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer";
 
@@ -8,11 +8,6 @@ const lato = Lato({
   subsets: ["latin"],
   weight: ["400", "700", "900"],
   variable: "--body-font",
-});
-
-export const wix = Wix_Madefor_Display({
-  subsets: ["latin"],
-  weight: ["700"],
 });
 
 export const metadata: Metadata = {

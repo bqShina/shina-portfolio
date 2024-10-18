@@ -1,7 +1,12 @@
 import Link from "next/link";
 import React from "react";
 import styles from "./NavBar.module.css";
-import { wix } from "@/app/layout";
+import { Wix_Madefor_Display } from "next/font/google";
+
+const wix = Wix_Madefor_Display({
+  subsets: ["latin"],
+  weight: ["700"],
+});
 
 const NarBar = () => {
   return (
