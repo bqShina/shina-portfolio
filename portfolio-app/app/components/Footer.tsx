@@ -65,10 +65,14 @@ const Footer = () => {
             <p className="text-[20px] mb-8">Projects</p>
             <ul>
               <li className="mb-3 hover:underline">
-                <Link href="#">RetroAI++</Link>
+                <Link href="https://d3fmvsgz845g3s.cloudfront.net">
+                  RetroAI++
+                </Link>
               </li>
               <li className="mb-3 hover:underline">
-                <Link href="#">Project 2</Link>
+                <Link href="https://monash-auto-body-client.onrender.com">
+                  Customer Management Dashboard
+                </Link>
               </li>
               <li className="mb-3 hover:underline">
                 <Link href="#">Project 3</Link>
