@@ -10,7 +10,7 @@ const Heading = () => {
         </div>
 
         <h1 className="text-center">
-          I build websites and apps that blows your mind
+          I build websites and apps that impresses beyond expectations
         </h1>
         <div className="flex justify-center">
           <Link className="mr-4 btn-primary" href="#projects">
