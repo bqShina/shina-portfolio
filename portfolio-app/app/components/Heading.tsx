@@ -16,7 +16,7 @@ const Heading = () => {
           <Link className="mr-4 btn-primary" href="#projects">
             My work
           </Link>
-          <Link className="btn-secondary" href={"#"}>
+          <Link className="btn-secondary" href={"#about"}>
             About me
           </Link>
         </div>
