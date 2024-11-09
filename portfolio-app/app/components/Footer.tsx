@@ -45,19 +45,19 @@ const Footer = () => {
             <p className="text-[20px] mb-8">Navigation</p>
             <ul>
               <li className="mb-3 hover:underline">
-                <Link href="#">Home</Link>
+                <Link href="/">Home</Link>
               </li>
               <li className="mb-3 hover:underline">
-                <Link href="#projects">Work</Link>
+                <Link href="/#projects">Work</Link>
               </li>
               <li className="mb-3 hover:underline">
-                <Link href="#">Skills</Link>
+                <Link href="/#skills">Skills</Link>
               </li>
               <li className="mb-3 hover:underline">
-                <Link href="#">About</Link>
+                <Link href="/#about">About</Link>
               </li>
               <li className="mb-3 hover:underline">
-                <Link href="#">Contact</Link>
+                <Link href="/contact">Contact</Link>
               </li>
             </ul>
           </div>
@@ -75,10 +75,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li className="mb-3 hover:underline">
-                <Link href="#">Project 3</Link>
-              </li>
-              <li className="mb-3 hover:underline">
-                <Link href="#">Project 4</Link>
+                <Link href="/practices">Practices</Link>
               </li>
             </ul>
           </div>
