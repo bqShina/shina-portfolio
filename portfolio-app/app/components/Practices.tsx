@@ -11,19 +11,19 @@ const Practices = () => {
       name: "Movie Search",
       image: movieSearch,
       link: "https://bqshina.github.io/Movie-Search/",
-      description: "Build by React and Bootstrap",
+      description: "Front-end (React, Bootstrap)",
     },
     {
       name: "Blog",
       image: blog,
       link: "https://shina-blog.herokuapp.com/",
-      description: "Build by Python with Flake",
+      description: "Full-stack (Python, Flask, SQLAlchemy)",
     },
     {
       name: "Github User Search App",
       image: githubUserSearch,
       link: "https://bqshina.github.io/My-Portfolio/projects/github-user-search-app/index.html",
-      description: "Build by Pure HTML, CSS and Javascript",
+      description: "Front-end (Pure HTML, CSS, Javascript)",
     },
   ];
   return (
@@ -47,7 +47,7 @@ const Practices = () => {
               className="w-[100%] h-[100%] overflow-hidden object-center object-cover"
             />
             <div className="bg-[linear-gradient(180deg,rgba(255,255,255,0)_0%,rgb(255,255,255)_45%)] px-6 pt-20 pb-5 z-100 absolute bottom-0 w-[100%] space-y-2">
-              <p className="text-[#505050]">{practice.description}</p>
+              <p className="text-[#505050] text-sm">{practice.description}</p>
               <h6 className="text-black">{practice.name}</h6>
             </div>
           </Link>
