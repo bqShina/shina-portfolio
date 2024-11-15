@@ -27,7 +27,7 @@ const AboutMe = () => {
           innovative solutions, feel free to reach out!
         </p>
         <div className="text-white bg-gray-800 px-8 py-5 rounded-full transition duration-200 hover:scale-95 inline-block">
-          <Link href="/contact">Send me a message</Link>
+          <Link href="/resume.pdf">Download my resume</Link>
         </div>
       </div>
     </div>

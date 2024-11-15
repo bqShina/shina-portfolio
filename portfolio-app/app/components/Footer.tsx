@@ -57,7 +57,7 @@ const Footer = () => {
                 <Link href="/#about">About</Link>
               </li>
               <li className="mb-3 hover:underline">
-                <Link href="/contact">Contact</Link>
+                <Link href="/resume.pdf">Resume</Link>
               </li>
             </ul>
           </div>
