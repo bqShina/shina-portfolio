@@ -27,7 +27,7 @@ const Practices = () => {
     },
   ];
   return (
-    <div className="mb-40">
+    <div id="practices" className="mb-40">
       <div className="sub-heading">
         <h6 className="text-center">Extra Projects 🌸</h6>
       </div>

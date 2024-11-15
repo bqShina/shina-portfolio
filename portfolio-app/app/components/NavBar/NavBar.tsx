@@ -28,15 +28,18 @@ const NarBar = () => {
             <Link href="/#skills">Skills</Link>
           </li>
           <li>
+            <Link href="/#practices">Practice</Link>
+          </li>
+          <li>
             <Link href="/#about">About</Link>
           </li>
 
           <li>
             <Link
-              href="/contact"
+              href="/resume.pdf"
               className="text-white bg-gray-800 hover:bg-gray-900 focus:bg-gray-900 focus:text-white font-medium rounded-full  px-9 py-3 transition duration-200 hover:scale-95 ml-2"
             >
-              Contact
+              Resume
             </Link>
           </li>
         </ul>
