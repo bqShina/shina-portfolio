@@ -34,7 +34,7 @@ h6 {
 
 h1 {
   font-size: 57px;
-  font-weight: 700;
+  font-weight: 550;
   width: 80%;
   margin: 30px auto;
 }
@@ -59,13 +59,13 @@ h1 {
 }
 
 .btn-primary {
-  @apply text-white bg-gray-800 px-7 py-3 rounded-full transition duration-200 hover:scale-95;
+  @apply text-white text-center bg-gray-800 px-7 py-3 rounded-full transition duration-200 hover:scale-95;
 }
 
 .btn-secondary {
-  @apply border-2 border-gray-800 px-7 py-3 rounded-full transition duration-200 hover:scale-95 text-black;
+  @apply border-2 text-center border-gray-800 px-7 py-3 rounded-full transition duration-200 hover:scale-95 text-black;
 }
 
 .hover-nav-link {
-  @apply py-1 border-b border-white/60 hover:border-[#171717]  transition-all duration-300;
+  @apply py-1 border-b border-transparent hover:border-[#171717]  transition-all duration-300;
 }

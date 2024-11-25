@@ -17,6 +17,9 @@ const NarBar = () => {
     { name: "About", url: "/#about" },
   ];
   const [menuOpen, setMenuOpen] = useState(false);
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
   return (
     <nav className="items-center w-[100%] px-[10%] py-4 bg-white/60 backdrop-blur-md fixed top-0 text-base z-10 transition-all duration-200">
       <div className="flex items-center justify-between">
@@ -55,12 +58,15 @@ const NarBar = () => {
         <ul className="lg:hidden flex flex-col justify-center space-y-10 mt-8 mb-3">
           {navLinks.map((navLinks) => (
             <li key={navLinks.url} className="text-xl inline-block text-center">
-              <Link href={navLinks.url}>{navLinks.name}</Link>
+              <Link href={navLinks.url} onClick={closeMenu}>
+                {navLinks.name}
+              </Link>
             </li>
           ))}
 
           <Link
             href="/resume.pdf"
+            onClick={closeMenu}
             className="text-white bg-gray-800 hover:bg-gray-900 focus:bg-gray-900 focus:text-white font-medium rounded-full  px-9 py-3 transition duration-200 hover:scale-95 ml-2 inline-block text-center"
           >
             Resume
