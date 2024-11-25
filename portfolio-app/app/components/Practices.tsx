@@ -34,12 +34,12 @@ const Practices = () => {
       <h2 className="text-center font-bold text-[38px] my-10">
         Small projects for skill-building and practice
       </h2>
-      <div className="flex w-[80%] mx-[auto] space-x-3 ">
+      <div className="flex flex-col lg:flex-row w-[80%] mx-[auto] space-x-0 lg:space-x-3 space-y-5 lg:space-y-0">
         {practices.map((practice) => (
           <Link
             href={practice.link}
             key={practice.link}
-            className="rounded-[24px] w-[33%] h-96 overflow-hidden shadow relative transition duration-200 hover:scale-95"
+            className="rounded-[24px] lg:w-[33%] w-[100%] h-96 overflow-hidden shadow relative transition duration-200 hover:scale-95"
           >
             <Image
               src={practice.image}

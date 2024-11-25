@@ -7,16 +7,15 @@ const AboutMe = () => {
   return (
     <div
       id="about"
-      className="flex mx-[15%] my-16 items-center bg-[linear-gradient(126deg,_rgb(252,_235,_239),_#fcebef_0%,_rgb(244,_237,_255),_rgb(244,_237,_255)_100%)] p-14  rounded-[40px] justify-start"
+      className="flex flex-col lg:flex-row mx-[15%] my-16 items-center bg-[linear-gradient(126deg,_rgb(252,_235,_239),_#fcebef_0%,_rgb(244,_237,_255),_rgb(244,_237,_255)_100%)] sm:p-14 p-7  rounded-[40px] justify-start"
     >
       <Image
         src={profile}
         alt="profile image"
-        style={{ width: "50%" }}
-        className="rounded-[40px]"
+        className="rounded-[40px] mb-5 lg:w-[50%] md: w-[100%]"
       />
 
-      <div className="ml-20 w-[50%]">
+      <div className="lg:ml-20 ml-0 w-[100%] lg:w-[50%]">
         <h4 className="text-[28px] mb-3">Hi, I&apos;m Shina! 💻</h4>
         <p className="text-[#505050] leading-loose mb-10">
           I&apos;m a recent graduate and Full-Stack Developer based in

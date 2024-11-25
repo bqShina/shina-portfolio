@@ -7,8 +7,8 @@ import { VscGithubAlt } from "react-icons/vsc";
 const Footer = () => {
   return (
     <div className="bg-white rounded-tl-[64px] rounded-tr-[64px] px-8 py-5">
-      <div className="flex justify-center py-20 px-4">
-        <div className="w-[40%]">
+      <div className="flex flex-col md:flex-row justify-center py-20 px-4">
+        <div className="md:w-[40%] w-[100%]">
           <p className="text-[20px] mb-8">Follow me on other channels</p>
           <Link
             className="bg-[linear-gradient(106deg,_rgb(245,247,255)_0%,_rgb(252,250,255)_100%)] rounded-[24px] flex justify-between items-center py-4 px-5 w-[100%] mb-4 transition duration-200 hover:scale-95"
@@ -39,9 +39,9 @@ const Footer = () => {
             <MdOutlineArrowOutward className="text-[30px]" />
           </Link>
         </div>
-        <div className="w-[2px] bg-[#f5f7ff] mx-20"></div>
-        <div className="flex w-[40%] justify-start">
-          <div className="mr-10 w-[45%]">
+        <div className="md:w-[2px] w-[100%] md:h-auto h-[2px] bg-[#f5f7ff] mx-0 md:mx-20 my-8 md:my-0"></div>
+        <div className="flex sm:flex-row flex-col md:w-[40%] w-[100%] md:justify-start justify-between">
+          <div className="mr-10 md:w-[45%] w-[50%]">
             <p className="text-[20px] mb-8">Navigation</p>
             <ul>
               <li className="mb-3 hover:underline">
@@ -62,7 +62,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <p className="text-[20px] mb-8">Projects</p>
+            <p className="text-[20px] mb-8 mt-7 sm:mt-0">Projects</p>
             <ul>
               <li className="mb-3 hover:underline">
                 <Link href="https://d3fmvsgz845g3s.cloudfront.net">

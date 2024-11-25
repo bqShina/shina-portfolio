@@ -75,7 +75,7 @@ const AllPracticesPage = () => {
         Small projects for skill-building and practice
       </h2>
 
-      <div className="grid grid-cols-3 grid-rows-auto gap-5">
+      <div className="grid lg:grid-cols-3 grid-cols-1 grid-rows-auto gap-5">
         {practices.map((practice) => (
           <Link
             href={practice.link}

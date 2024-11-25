@@ -35,11 +35,20 @@ const Projects = () => {
             styles.project
           }`}
         >
-          <Image src={project.logo} alt="project logo" className="w-[15%]" />
-          <div className="flex justify-between items-center my-16">
+          <Image
+            src={project.logo}
+            alt="project logo"
+            className="lg:w-[15%] w-[30%]"
+          />
+          <div className="flex flex-col lg:flex-row justify-between items-center my-16">
+            <Image
+              src={project.projectMock}
+              alt="project mock"
+              className="w-[100%] inline-block lg:hidden mb-8"
+            />
             <div className="project_description">
               <p className="text-sm text-gray-600">{project.type}</p>
-              <h2 className="my-10 text-[38px] font-bold">
+              <h2 className="my-10 text-[32px] lg:text-[38px] font-semibold">
                 {project.description}
               </h2>
               <div className="flex justify-start">
@@ -56,7 +65,7 @@ const Projects = () => {
             <Image
               src={project.projectMock}
               alt="project mock"
-              style={{ width: "50%" }}
+              className="w-[50%] ml-3 hidden lg:inline-block"
             />
           </div>
         </div>
