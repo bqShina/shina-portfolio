@@ -4,11 +4,21 @@ import Link from "next/link";
 import Image from "next/image";
 import retroLogo from "@/public/images/RetroAIPlusPlusLogo.png";
 import monashAutoBodyLogo from "@/public/images/monashautobodyLogo.png";
+import ptcLogo from "@/public/images/ptc-seeklogo.png";
 import retroMock from "@/public/images/retroaipp.png";
 import monashAutoBodyMock from "@/public/images/monashAutoBody.png";
+import ptcMock from "@/public/images/ptc-onshape.png";
 
 const Projects = () => {
   const projects = [
+    {
+      logo: ptcLogo,
+      type: "React (Frontend), NodeJS (Backend)",
+      projectMock: ptcMock,
+      description: "Render studio features on a CAD application called onshape",
+      website: "/project/ptcOnshape",
+      sourceCode: "",
+    },
     {
       logo: retroLogo,
       type: "React (Frontend), AWS Lambda with Java (Backend), DynamoDB (Database)",
@@ -53,7 +63,7 @@ const Projects = () => {
               </h2>
               <div className="flex justify-start">
                 <Link className="mr-4 btn-primary" href={project.website}>
-                  Visit website
+                  {index === 0 ? "View demo" : "Visit website"}
                 </Link>
                 {project.sourceCode && (
                   <Link className="btn-secondary" href={project.sourceCode}>

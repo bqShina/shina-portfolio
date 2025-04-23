@@ -83,7 +83,7 @@ const Footer = () => {
       </div>
 
       <div className="text-center mt-10">
-        <small>&copy; 2024 &ndash; Shina Qin</small>
+        <small>&copy; 2025 &ndash; Shina Qin</small>
       </div>
     </div>
   );
