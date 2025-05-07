@@ -52,7 +52,10 @@ const PtcOnshapePage = () => {
       <div className="flex justify-between flex-col lg:flex-row lg:space-y-0 space-y-3">
         <div className="space-y-1">
           <h5 className="uppercase text-[14px]">Company</h5>
-          <Link href="https://www.onshape.com/en/features/render-studio">
+          <Link
+            href="https://www.onshape.com/en/features/render-studio"
+            target="_blank"
+          >
             <div className="flex items-center space-x-1">
               <h3 className="text-[24px]">PTC-Onshape</h3>
               <MdOutlineArrowOutward className="text-[24px]" />
@@ -79,7 +82,9 @@ const PtcOnshapePage = () => {
               <br />
               {video.releaseLink && (
                 <span className="text-blue-600 hover:underline">
-                  <Link href={video.releaseLink}>public link</Link>
+                  <Link href={video.releaseLink} target="_blank">
+                    public link
+                  </Link>
                 </span>
               )}
             </p>

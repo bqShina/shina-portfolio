@@ -48,7 +48,7 @@ const Projects = () => {
           <Image
             src={project.logo}
             alt="project logo"
-            className="lg:w-[15%] w-[30%]"
+            className="lg:w-[15%] w-[20%]"
           />
           <div className="flex flex-col lg:flex-row justify-between items-center my-16">
             <Image
@@ -58,10 +58,13 @@ const Projects = () => {
             />
             <div className="project_description">
               <p className="text-sm text-gray-600">{project.type}</p>
-              <h2 className="my-10 text-[32px] lg:text-[38px] font-semibold">
+              <h2 className="my-10 text-[24px] sm:text-[32px] lg:text-[38px] font-semibold">
                 {project.description}
               </h2>
-              <div className="flex justify-start">
+              <div
+                className="flex justify-center
+              sm:justify-start flex-col sm:flex-row sm:space-y-0 space-y-3"
+              >
                 <Link className="mr-4 btn-primary" href={project.website}>
                   {index === 0 ? "View demo" : "Visit website"}
                 </Link>

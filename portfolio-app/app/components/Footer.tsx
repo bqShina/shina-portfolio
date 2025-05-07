@@ -65,6 +65,9 @@ const Footer = () => {
             <p className="text-[20px] mb-8 mt-7 sm:mt-0">Projects</p>
             <ul>
               <li className="mb-3 hover:underline">
+                <Link href="/project/ptcOnshape">Onshape (demo videos)</Link>
+              </li>
+              <li className="mb-3 hover:underline">
                 <Link href="https://d3fmvsgz845g3s.cloudfront.net">
                   RetroAI++
                 </Link>
