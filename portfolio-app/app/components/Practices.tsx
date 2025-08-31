@@ -1,6 +1,7 @@
 import React from "react";
 import movieSearch from "@/public/images/movie-search.png";
-import blog from "@/public/images/blog.png";
+// import blog from "@/public/images/blog.png";
+import crowdfundingProduct from "@/public/images/crowdfunding-product-page-screenshot.png";
 import githubUserSearch from "@/public/images/github-user-search-app.png";
 import Image from "next/image";
 import Link from "next/link";
@@ -14,10 +15,10 @@ const Practices = () => {
       description: "Front-end (React, Bootstrap)",
     },
     {
-      name: "Blog",
-      image: blog,
-      link: "https://shina-blog.herokuapp.com/",
-      description: "Full-stack (Python, Flask, SQLAlchemy)",
+      name: "Crowdfunding Product Page",
+      image: crowdfundingProduct,
+      link: "https://bqshina.github.io/My-Portfolio/projects/crowdfunding-product-page-main/index.html",
+      description: "Front-end (Pure HTML, CSS, Javascript)",
     },
     {
       name: "Github User Search App",

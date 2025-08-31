@@ -1,9 +1,9 @@
 import React from "react";
 import movieSearch from "@/public/images/movie-search.png";
-import blog from "@/public/images/blog.png";
+// import blog from "@/public/images/blog.png";
 import githubUserSearch from "@/public/images/github-user-search-app.png";
 import crowdfundingProduct from "@/public/images/crowdfunding-product-page-screenshot.png";
-import languageTranslator from "@/public/images/language-translator.png";
+// import languageTranslator from "@/public/images/language-translator.png";
 import equalizerLanding from "@/public/images/equlizer-landing-page.png";
 import FAQAccordionCard from "@/public/images/faq-card.png";
 import introComponentWithSignupForm from "@/public/images/sign-up-form.png";
@@ -19,12 +19,12 @@ const AllPracticesPage = () => {
       link: "https://bqshina.github.io/Movie-Search/",
       description: "Front-end (React, Bootstrap)",
     },
-    {
-      name: "Blog",
-      image: blog,
-      link: "https://shina-blog.herokuapp.com/",
-      description: "Full-stack (Python, Flask, SQLAlchemy)",
-    },
+    // {
+    //   name: "Blog",
+    //   image: blog,
+    //   link: "https://shina-blog.herokuapp.com/",
+    //   description: "Full-stack (Python, Flask, SQLAlchemy)",
+    // },
     {
       name: "Github User Search App",
       image: githubUserSearch,
@@ -37,12 +37,12 @@ const AllPracticesPage = () => {
       link: "https://bqshina.github.io/My-Portfolio/projects/crowdfunding-product-page-main/index.html",
       description: "Front-end (Pure HTML, CSS, Javascript)",
     },
-    {
-      name: "Language Translator",
-      image: languageTranslator,
-      link: "https://fast-castle-22055.herokuapp.com/",
-      description: "Full-stack (Node js, Express, EJS)",
-    },
+    // {
+    //   name: "Language Translator",
+    //   image: languageTranslator,
+    //   link: "https://fast-castle-22055.herokuapp.com/",
+    //   description: "Full-stack (Node js, Express, EJS)",
+    // },
     {
       name: "Equalizer Landing Page",
       image: equalizerLanding,
